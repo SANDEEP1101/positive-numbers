@@ -1,0 +1,23 @@
+NumList=[]
+
+Number=int(input("Please enter the Total Number of List Element:"))
+for i in range(1,Number +1):
+    value=int(input("please enter the value of % Element:"%1))
+    NumList.append(value)
+
+print("\nPositive Number in this List1 are:")
+for j in range (Number):
+     if(NumList[j]>=0):
+         print(NumList[j],end = ' ')
+
+Number=int(input("Please enter the Total Numberof list 2 Element:"))
+for i in range(1,Number+1):
+    value=int(input("please enter the value of the %d Element : "%1))
+    NumList.append(value)
+
+
+print("\nPositive Number in this List 2 are: ")
+for j in range (Number):
+    if(NumList[j] >=0):
+        print(NumList[j],end=' ')
+
